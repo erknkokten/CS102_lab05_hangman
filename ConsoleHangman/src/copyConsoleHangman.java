@@ -19,9 +19,9 @@ public class copyConsoleHangman {
         hangman = new HangmanModel ( new BasicSetup () );
 
         IHangmanView view = new ConsoleHangmanView();
-
+        IHangmanView view1 = new ConsoleHangmanView();
         hangman.addView( view );
-
+        hangman.addView(view1);
         System.out.println( hangman.getKnownSoFar() );
 
         // ToDo - allow user to repeatedly enter a letter and tryThis letter
