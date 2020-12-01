@@ -9,7 +9,8 @@ public class HangmanModel extends Hangman {
 
     public HangmanModel(IHangmanSetup setup) {
         super(setup);
-        views = new ArrayList<IHangmanView>(0);
+        views = new ArrayList<IHangmanView>();
+
     }
 
     /**
@@ -18,6 +19,7 @@ public class HangmanModel extends Hangman {
      */
     public void addView( IHangmanView view){
         views.add(view);
+
     }
 
     /**
@@ -27,6 +29,7 @@ public class HangmanModel extends Hangman {
         for(int i = 0; i< views.size(); i++){
             views.get(i).updateView(this);
         }
+
     }
 
 

@@ -14,7 +14,7 @@ public class copyConsoleHangman {
         // VARIABLES
         HangmanModel  hangman;
 
-        // PROGRAM CODE
+        // PROGRAM COD
 
         hangman = new HangmanModel ( new BasicSetup () );
 
