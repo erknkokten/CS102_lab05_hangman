@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cs102">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../Hangman/classes/cs102" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

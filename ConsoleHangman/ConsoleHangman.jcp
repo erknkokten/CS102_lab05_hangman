@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<settings>
+		<label>ConsoleHangman</label>
+		<root_path>\</root_path>
+		<output_path>classes\</output_path>
+		<source_path>src\</source_path>
+		<jdkprofile_ref>JDK version 7latest</jdkprofile_ref>
+		<compiler_ref>&lt;Default&gt;</compiler_ref>
+		<ant_ref/>
+	</settings>
+	<ant_events/>
+	<run_items>
+		<item run="ConsoleHangman"/>
+	</run_items>
+	<runtimes>
+		<runtime>
+			<label>&lt;Default&gt;</label>
+			<application_ref/>
+			<applet_ref/>
+			<debugger_ref/>
+			<param/>
+			<run>ConsoleHangman</run>
+			<verify>true</verify>
+		</runtime>
+	</runtimes>
+	<libraries>
+		<library_ref>cs102</library_ref>
+	</libraries>
+	<files>
+		<include>
+			<folderitem>
+				<path>src</path>
+			</folderitem>
+			<fileitem>
+				<path>src\BasicSetup.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\ConsoleHangman.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\IHangmanView.java</path>
+				<folder>src</folder>
+			</fileitem>
+		</include>
+	</files>
+	<tasks>
+		<todotaskitem>
+			<description>ToDo - allow user to repeatedly enter a letter and tryThis letter</description>
+			<filepath>src\ConsoleHangman.java</filepath>
+			<line>29</line>
+			<timestamp>1365396173</timestamp>
+		</todotaskitem>
+	</tasks>
+</project>
