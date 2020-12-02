@@ -24,9 +24,14 @@ public class GUIHangman
 		consoleView = new ConsoleHangmanView();
 		hangman.addView( consoleView);
 
+		TextFieldControlPanel textFieldControlPanel = new TextFieldControlPanel(hangman);
+
+		NewGameButtonControl newGameButtonControl = new NewGameButtonControl(hangman);
+
+
 		new SimpleJFrame( "GUIHangman", 	// title
 							null,			// center
-							null, null,		// north, south
+							textFieldControlPanel, newGameButtonControl,		// north, south
 							null, null );	// east, west
 
 		// this is an infinite loop reading from the console... not clever!
