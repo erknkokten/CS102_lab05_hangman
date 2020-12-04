@@ -28,11 +28,17 @@ public class GUIHangman
 
 		NewGameButtonControl newGameButtonControl = new NewGameButtonControl(hangman);
 
+		GallowsHangmanView gallowsHangmanView = new GallowsHangmanView(hangman);
+
+		LabelsHangmanView labelsHangmanView = new LabelsHangmanView(hangman);
+
+		hangman.addView(labelsHangmanView);
+		hangman.addView(gallowsHangmanView);
 
 		new SimpleJFrame( "GUIHangman", 	// title
-							null,			// center
+				gallowsHangmanView,			// center
 							textFieldControlPanel, newGameButtonControl,		// north, south
-							null, null );	// east, west
+				gallowsHangmanView, labelsHangmanView );	// east, west
 
 		// this is an infinite loop reading from the console... not clever!
 		ConsoleControl.controlFor( hangman);
