@@ -32,13 +32,20 @@ public class GUIHangman
 
 		LabelsHangmanView labelsHangmanView = new LabelsHangmanView(hangman);
 
+		HangmanLetterButtonControls hangmanLetterButtonControls = new HangmanLetterButtonControls(hangman.getAllLetters(), 13,2);
+		HangmanLetterButtonsController hangmanLetterButtonsController = new HangmanLetterButtonsController(hangman, hangmanLetterButtonControls );
+		hangmanLetterButtonControls.addActionListener(hangmanLetterButtonsController);
+
 		hangman.addView(labelsHangmanView);
 		hangman.addView(gallowsHangmanView);
+		hangman.addView(newGameButtonControl);
+		hangman.addView(hangmanLetterButtonControls);
+
 
 		new SimpleJFrame( "GUIHangman", 	// title
 				gallowsHangmanView,			// center
 							textFieldControlPanel, newGameButtonControl,		// north, south
-				gallowsHangmanView, labelsHangmanView );	// east, west
+				hangmanLetterButtonControls, labelsHangmanView );	// east, west
 
 		// this is an infinite loop reading from the console... not clever!
 		ConsoleControl.controlFor( hangman);

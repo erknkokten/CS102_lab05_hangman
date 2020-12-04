@@ -25,6 +25,7 @@ public class LetterButtonControls extends JPanel
 			b.setMargin( new Insets( 1, 2, 1, 2) );
 			add( b);
 		}
+
 	}
 
 	public void addActionListener( ActionListener l)
@@ -51,4 +52,5 @@ public class LetterButtonControls extends JPanel
 				((JButton) c).setEnabled( false);
 		}
 	}
+
 }
