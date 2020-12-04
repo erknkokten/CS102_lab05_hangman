@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>Lab05</label>
+		<id>38</id>
+		<version>0</version>
+	</settings>
+	<users>
+		<user>
+			<path>Lab05.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>ConsoleHangman\ConsoleHangman.jcp</path>
+		</project>
+		<project>
+			<path>GUIHangman\GUIHangman.jcp</path>
+		</project>
+		<project>
+			<path>Hangman\Hangman.jcp</path>
+		</project>
+	</projects>
+</workspace>

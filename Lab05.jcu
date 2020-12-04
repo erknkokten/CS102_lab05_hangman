@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace_user>
+	<active_project>
+		<label>ConsoleHangman</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>ConsoleHangman</label>
+			<showfiles>false</showfiles>
+			<folderitem>
+				<path>ConsoleHangman\src</path>
+				<dir>src</dir>
+			</folderitem>
+		</project>
+		<project>
+			<label>GUIHangman</label>
+			<showfiles>false</showfiles>
+			<folderitem>
+				<path>GUIHangman\src</path>
+				<dir>src</dir>
+			</folderitem>
+		</project>
+		<project>
+			<label>Hangman</label>
+			<showfiles>false</showfiles>
+			<folderitem>
+				<path>Hangman\src</path>
+				<dir>src</dir>
+			</folderitem>
+		</project>
+	</projects>
+	<open_files>
+		<docitem>
+			<path>ConsoleHangman\src\ConsoleHangman.java</path>
+			<source>true</source>
+			<index>0</index>
+			<active>true</active>
+		</docitem>
+		<docitem>
+			<path>ConsoleHangman\src\BasicSetup.java</path>
+			<source>true</source>
+			<index>1</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>ConsoleHangman\src\IHangmanView.java</path>
+			<source>true</source>
+			<index>2</index>
+			<active>false</active>
+		</docitem>
+	</open_files>
+</workspace_user>
